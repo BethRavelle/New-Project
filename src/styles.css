@@ -1,0 +1,72 @@
+.weather {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.main-card {
+  background: #f6f6f6;
+}
+form {
+  margin-bottom: 10px;
+}
+h1 {
+  margin: 20px 0 0 0;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.current-location:hover {
+  background: green;
+}
+.today-icon {
+  font-size: 70px;
+}
+.today-temperature {
+  font-size: 70px;
+}
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -35px;
+}
+#celsius-link {
+  text-decoration: none;
+}
+#farenheit-link {
+  text-decoration: none;
+}
+.extra-info {
+  position: relative;
+  top: 15px;
+}
+.min {
+  color: blue;
+  font-size: 20px;
+}
+.max {
+  color: red;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin-inline-start: 0px;
+  margin: 0;
+  padding-inline-start: 0;
+  color: gray;
+}
+
+.forecast {
+  margin: 30px 0 20px 0;
+}
+h5 {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.icon {
+  font-size: 50px;
+}
+
+.temp {
+  font-size: 35px;
+}
