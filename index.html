@@ -10,6 +10,12 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="src/styles.css" rel="stylesheet" />
     <title>Weather APP 2</title>
   </head>
@@ -33,6 +39,7 @@
                   type="submit"
                   value="Search"
                   class="btn btn-primary w-100"
+                  id="search-button"
                 />
               </div>
             </div>
@@ -40,7 +47,7 @@
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
-              <li>Last updated at <span id="date"></span></li>
+              <li id="date"></li>
               <li id="description"></li>
             </ul>
           </div>
