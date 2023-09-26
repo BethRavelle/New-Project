@@ -47,6 +47,7 @@ function displayForecast(response) {
         }.png"
         alt=""
         class="img-fluid"
+        id="forecast-icon"
         
       />
       <div class="weather-forecast-temp">

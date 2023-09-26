@@ -28,12 +28,15 @@ li {
 
 small {
   color: #878787;
-  font-size: 12px;
+  font-size: 14px;
 }
 a {
   text-decoration: none;
 }
 
+#city-input {
+  background: #f1eef9;
+}
 .btn {
   background: #7751bf;
   border: none;
@@ -63,17 +66,31 @@ li:first-letter {
   margin-bottom: 20px;
 }
 
+#humidity {
+  color: #7751bf;
+  font-weight: 700;
+}
+
+#wind {
+  color: #7751bf;
+  font-weight: 700;
+}
+
+#unit {
+  color: #7751bf;
+  font-weight: 700;
+}
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 74px;
+  width: 74px;
 }
 
 .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 700;
 }
 .weather-temperature .units {
   position: relative;
@@ -81,9 +98,14 @@ li:first-letter {
   top: -34px;
 }
 
+#description {
+  text-align: center;
+  font-size: 20px;
+}
+
 .weather-forecast {
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 20px;
 }
 
@@ -108,4 +130,9 @@ li:first-letter {
   background: #ffffff;
   display: grid;
   text-align: center;
+}
+
+#forecast-icon {
+  text-align: right;
+  opacity: 0.7;
 }
