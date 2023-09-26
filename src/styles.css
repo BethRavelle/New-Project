@@ -84,7 +84,7 @@ li:first-letter {
 .weather-forecast {
   font-weight: 700;
   margin-top: 30px;
-  text-align: center;
+  margin-left: 20px;
 }
 
 .weather-forecast-date {
@@ -101,4 +101,11 @@ li:first-letter {
   color: #7751bf;
   font-size: 15px;
   margin-top: 10px;
+}
+
+.grid {
+  border: none;
+  background: #ffffff;
+  display: grid;
+  text-align: center;
 }
